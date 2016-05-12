@@ -12,3 +12,6 @@ spring:
     username: postgres
     password: 
     driver-class-name: org.postgresql.Driver
+  sleuth:
+    sampler:
+      percentage: 1.0
